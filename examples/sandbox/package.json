@@ -12,6 +12,7 @@
   "dependencies": {
     "@rebass/preset": "^4.0.5",
     "emotion-theming": "^10.0.14",
+    "reflexbox": "^4.1.0",
     "rebass": "^4.1.0",
     "@styled-system/should-forward-prop": "^5.1.5",
     "react": "^19.0.0",

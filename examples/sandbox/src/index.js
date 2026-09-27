@@ -1,17 +1,17 @@
 /* eslint no-unused-vars: 0 */
 import { createRoot } from 'react-dom/client'
 import shouldForwardProp from '@styled-system/should-forward-prop'
-import preset from '@designstack/preset'
+import preset from '@rebass/preset'
 import { styled, StyleSheetManager, ThemeProvider } from 'styled-components'
 
 import {
   Box,
   Flex,
-} from '@designstack/reflexbox'
+} from 'reflexbox/styled-components'
 import {
   Heading,
   Button,
-} from '@designstack/rebass/styled-components'
+} from 'rebass/styled-components'
 
 const theme = {
   ...preset,
