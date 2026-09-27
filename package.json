@@ -16,9 +16,11 @@
     "@babel/core": "^7.29.7",
     "@babel/preset-env": "^7.29.7",
     "@babel/preset-react": "^7.0.0",
+    "@testing-library/dom": "^10.4.1",
     "@testing-library/react": "^16.0.0",
+    "@emotion/jest": "^11.14.2",
     "jest": "^30.0.0",
-    "jest-emotion": "^11.0.0",
+    "jest-environment-jsdom": "^30.5.2",
     "jest-styled-components": "^7.4.0",
     "lerna": "^10.0.0",
     "react": "^19.0.0",
@@ -31,6 +33,7 @@
     "testMatch": [
       "**/packages/**/test/*.js"
     ],
+    "testEnvironment": "jsdom",
     "testPathIgnorePatterns": [
       "/node_modules/"
     ],
@@ -53,7 +56,7 @@
     },
     "setupFilesAfterEnv": [],
     "snapshotSerializers": [
-      "jest-emotion"
+      "@emotion/jest/serializer"
     ]
   }
 }
