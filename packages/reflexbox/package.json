@@ -16,7 +16,7 @@
   ],
   "scripts": {
     "prepare": "babel src -d dist && yarn styled-components",
-    "styled-components": "NODE_ENV=styled babel src -d styled-components"
+    "styled-components": "babel src -d styled-components --env-name styled"
   },
   "dependencies": {
     "@emotion/core": "^10.0.0",
